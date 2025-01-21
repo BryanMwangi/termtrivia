@@ -44,17 +44,22 @@ func answerQuestion(c *pine.Ctx) error {
 	}
 	correct, points := repo.CheckAnswer(questionID, answer)
 	if correct {
-		userName := c.Locals("userName").(string)
-		user := repo.GetUser(userName)
+		userName := c.Locals("userName")
+		if userName == nil {
+			return c.SendStatus(401)
+		}
+		user := repo.GetUser(userName.(string))
 		repo.AddScore(user, points)
 	}
 	return c.JSON(correct)
 }
 
 func getScore(c *pine.Ctx) error {
-	userName := c.Locals("userName").(string)
-
-	score := repo.GetScore(userName)
+	userName := c.Locals("userName")
+	if userName == nil {
+		return c.SendStatus(401)
+	}
+	score := repo.GetScore(userName.(string))
 	return c.JSON(score)
 }
 

@@ -1,8 +1,6 @@
 package repo
 
 import (
-	"fmt"
-
 	"github.com/BryanMwangi/qa/server/db"
 	"github.com/BryanMwangi/qa/server/db/models"
 	"github.com/google/uuid"
@@ -27,6 +25,5 @@ func GetUser(userName string) models.User {
 	if user := db.Users.Get(userName); user != nil {
 		return user.(models.User)
 	}
-	fmt.Println("User not found")
 	return models.User{}
 }

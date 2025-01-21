@@ -1,8 +1,6 @@
 package handlers
 
 import (
-	"fmt"
-
 	"github.com/BryanMwangi/pine"
 	"github.com/BryanMwangi/qa/server/db/repo"
 	"github.com/BryanMwangi/qa/server/utils"
@@ -16,7 +14,6 @@ import (
 func authenticateRequest() pine.Handler {
 	return func(c *pine.Ctx) error {
 		if c.Header("Username") == "" {
-			fmt.Println("Username is empty")
 			return c.SendStatus(401)
 		}
 		if c.Header("Authorization") == "" {
