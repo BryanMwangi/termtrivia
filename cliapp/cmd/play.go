@@ -39,7 +39,8 @@ func playGame() {
 				fmt.Println("Failed to fetch your score")
 				fmt.Println(err)
 			}
-			fmt.Printf("\nYour score is: %d\n\n", user.Score)
+			fmt.Printf("You got %d correct answers out of %d questions\n", handlers.CorrectAnswers, handlers.TotalQuestions)
+			fmt.Printf("\nYour current total score is: %d\n\n", user.Score)
 			fmt.Println("Thanks for playing!")
 			break
 		}

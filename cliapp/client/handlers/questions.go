@@ -14,6 +14,8 @@ var (
 	currentQuestion int
 	questionPool    models.Questions
 	GameComplete    bool
+	TotalQuestions  int
+	CorrectAnswers  int
 )
 
 func FetchQuestions() error {
@@ -37,6 +39,8 @@ func FetchQuestions() error {
 		return err
 	}
 	currentQuestion = questionPool[0].ID
+	TotalQuestions = len(questionPool)
+	CorrectAnswers = 0
 	utils.StopLoader(200 * time.Millisecond)
 	return nil
 }
@@ -73,6 +77,9 @@ func AnswerQuestion(questionID int, answer int) bool {
 	if err != nil {
 		fmt.Println("Error unmarshalling response", err)
 		return false
+	}
+	if answerResponse {
+		CorrectAnswers++
 	}
 	return answerResponse
 }
