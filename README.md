@@ -4,6 +4,8 @@ TermTrivia is a simple CLI app and server that offers Computer Science questions
 
 Term Trivia's server was built using my own framework called [Pine](https://github.com/BryanMwangi/pine). Please feel free to give it a star if you like it.
 
+![Screenshot 2025-01-21 at 8 07 48 PM](https://github.com/user-attachments/assets/9f3f84b4-e57c-42b8-946d-d3be0666eeb7)
+
 ## Getting Started
 
 To get started, you will need to make sure that the server is running. There minimum requirements are:
