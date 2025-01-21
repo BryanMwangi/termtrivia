@@ -1,0 +1,338 @@
+[
+  {
+    "id": 0,
+    "question": "What is the purpose of a Go routine in Golang?",
+    "category": "computer_science",
+    "options": [
+      {
+        "id": 0,
+        "option": "To create a lightweight thread for concurrent programming"
+      },
+      {
+        "id": 1,
+        "option": "To define a new package"
+      },
+      {
+        "id": 2,
+        "option": "To initialize a map"
+      }
+    ],
+    "answer": 0,
+    "points": 10
+  },
+  {
+    "id": 1,
+    "question": "Which of the following is not a primitive type in Golang?",
+    "category": "computer_science",
+    "options": [
+      {
+        "id": 0,
+        "option": "int"
+      },
+      {
+        "id": 1,
+        "option": "slice"
+      },
+      {
+        "id": 2,
+        "option": "float64"
+      }
+    ],
+    "answer": 1,
+    "points": 20
+  },
+  {
+    "id": 2,
+    "question": "What is the default value of an uninitialized string in Golang?",
+    "category": "computer_science",
+    "options": [
+      {
+        "id": 0,
+        "option": "null"
+      },
+      {
+        "id": 1,
+        "option": "\"\" (empty string)"
+      },
+      {
+        "id": 2,
+        "option": "undefined"
+      }
+    ],
+    "answer": 1,
+    "points": 10
+  },
+  {
+    "id": 3,
+    "question": "Which keyword is used to define a struct in Golang?",
+    "category": "computer_science",
+    "options": [
+      {
+        "id": 0,
+        "option": "class"
+      },
+      {
+        "id": 1,
+        "option": "struct"
+      },
+      {
+        "id": 2,
+        "option": "type"
+      }
+    ],
+    "answer": 2,
+    "points": 15
+  },
+  {
+    "id": 4,
+    "question": "Which built-in function in Golang is used to recover from a panic?",
+    "category": "computer_science",
+    "options": [
+      {
+        "id": 0,
+        "option": "defer"
+      },
+      {
+        "id": 1,
+        "option": "recover"
+      },
+      {
+        "id": 2,
+        "option": "handle"
+      }
+    ],
+    "answer": 1,
+    "points": 25
+  },
+  {
+    "id": 5,
+    "question": "What is the default concurrency model used in Golang?",
+    "category": "computer_science",
+    "options": [
+      {
+        "id": 0,
+        "option": "Actor Model"
+      },
+      {
+        "id": 1,
+        "option": "Communicating Sequential Processes (CSP)"
+      },
+      {
+        "id": 2,
+        "option": "Thread-based Concurrency"
+      }
+    ],
+    "answer": 1,
+    "points": 15
+  },
+  {
+    "id": 6,
+    "question": "Which of the following tools is used for dependency management in Golang?",
+    "category": "computer_science",
+    "options": [
+      {
+        "id": 0,
+        "option": "npm"
+      },
+      {
+        "id": 1,
+        "option": "go mod"
+      },
+      {
+        "id": 2,
+        "option": "pip"
+      }
+    ],
+    "answer": 1,
+    "points": 20
+  },
+  {
+    "id": 7,
+    "question": "What is the purpose of the `init` function in Golang?",
+    "category": "computer_science",
+    "options": [
+      {
+        "id": 0,
+        "option": "To initialize variables or state before the program starts"
+      },
+      {
+        "id": 1,
+        "option": "To handle errors in a program"
+      },
+      {
+        "id": 2,
+        "option": "To serve as the entry point of a program"
+      }
+    ],
+    "answer": 0,
+    "points": 10
+  },
+  {
+    "id": 8,
+    "question": "Which statement is true about pointers in Golang?",
+    "category": "computer_science",
+    "options": [
+      {
+        "id": 0,
+        "option": "Pointers can be used to manipulate variables indirectly"
+      },
+      {
+        "id": 1,
+        "option": "Pointers are not allowed in Golang"
+      },
+      {
+        "id": 2,
+        "option": "Pointers are automatically garbage collected"
+      }
+    ],
+    "answer": 0,
+    "points": 15
+  },
+  {
+    "id": 9,
+    "question": "What is the size of an `int` in Golang on a 64-bit architecture?",
+    "category": "computer_science",
+    "options": [
+      {
+        "id": 0,
+        "option": "16 bits"
+      },
+      {
+        "id": 1,
+        "option": "32 bits"
+      },
+      {
+        "id": 2,
+        "option": "64 bits"
+      }
+    ],
+    "answer": 2,
+    "points": 10
+  },
+  {
+    "id": 10,
+    "question": "What does HTTP stand for?",
+    "category": "computer_science",
+    "options": [
+      {
+        "id": 0,
+        "option": "Hyper Text Transfer Protocol"
+      },
+      {
+        "id": 1,
+        "option": "Hyperlink Transfer Text Protocol"
+      },
+      {
+        "id": 2,
+        "option": "Hyper Transfer Text Protocol"
+      }
+    ],
+    "answer": 0,
+    "points": 5
+  },
+  {
+    "id": 11,
+    "question": "Why did the programmer quit his job?",
+    "category": "jokes",
+    "options": [
+      {
+        "id": 0,
+        "option": "He didn't get arrays."
+      },
+      {
+        "id": 1,
+        "option": "He couldn't find the syntax."
+      },
+      {
+        "id": 2,
+        "option": "His variables were undefined."
+      }
+    ],
+    "answer": 0,
+    "points": 5
+  },
+  {
+    "id": 12,
+    "question": "In the context of databases, what does ACID stand for?",
+    "category": "computer_science",
+    "options": [
+      {
+        "id": 0,
+        "option": "Atomicity, Consistency, Isolation, Durability"
+      },
+      {
+        "id": 1,
+        "option": "Automated, Consistent, Indexed, Distributed"
+      },
+      {
+        "id": 2,
+        "option": "Access, Control, Integrity, Distribution"
+      }
+    ],
+    "answer": 0,
+    "points": 15
+  },
+  {
+    "id": 13,
+    "question": "What is the key difference between TCP and UDP?",
+    "category": "computer_science",
+    "options": [
+      {
+        "id": 0,
+        "option": "TCP is connection-oriented, UDP is connectionless"
+      },
+      {
+        "id": 1,
+        "option": "UDP guarantees delivery, TCP does not"
+      },
+      {
+        "id": 2,
+        "option": "TCP is used for emails, UDP is used for web browsing"
+      }
+    ],
+    "answer": 0,
+    "points": 20
+  },
+  {
+    "id": 14,
+    "question": "Why do Java developers wear glasses?",
+    "category": "jokes",
+    "options": [
+      {
+        "id": 0,
+        "option": "Because they can't C#."
+      },
+      {
+        "id": 1,
+        "option": "Because syntax errors hurt their eyes."
+      },
+      {
+        "id": 2,
+        "option": "Because they see bugs more clearly."
+      }
+    ],
+    "answer": 0,
+    "points": 5
+  },
+  {
+    "id": 15,
+    "question": "Which data structure uses the Last In, First Out (LIFO) principle?",
+    "category": "computer_science",
+    "options": [
+      {
+        "id": 0,
+        "option": "Queue"
+      },
+      {
+        "id": 1,
+        "option": "Stack"
+      },
+      {
+        "id": 2,
+        "option": "Linked List"
+      }
+    ],
+    "answer": 1,
+    "points": 10
+  }
+]
